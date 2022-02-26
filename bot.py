@@ -27,11 +27,11 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hi I'm @ZirveUserTagbot I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/DeezerTaggerbot?startgroup=a'),],
-                      [ Button.url('🔥Grup', 'https://t.me/SohbetKirmiziKose'),],
-                      [ Button.url('🔥sahip ', 'https://t.me/magandasahip'),],
-                      [  Button.url('🔥Music botu ', 'https://t.me/DeezerMusicFilmbot'),],
-                     [ Button.url('📣resmi kanal', 'https://t.me/DeezerMusicFilm')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/Hirasettag_Bot?startgroup=a'),],
+                      [ Button.url('🔥Grup', 'https://t.me/HirasetTR'),],
+                      [ Button.url('🔥sahip ', 'https://t.me/meyitzade47'),],
+                      [  Button.url('🔥Music botu ', 'https://t.me/Myt_Music_Bot'),],
+                     [ Button.url('🔥Yardımcı Sahip', 'https://t.me/Ugurwalkers')]
                     ),
                     link_preview=False
                    )
@@ -44,9 +44,9 @@ async def help(event):
 ❕ Yalnızca yöneticileri bu komutları kullanabilir."""
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/DeezerTaggerbot?startgroup=a'),
-                       Button.url('🎛️Grup', 'https://t.me/SohbetKirmiziKose'),
-                      Button.url('📣resmi kanal', 'https://t.me/DeezerMusicFilm')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/Hirasettag_Bot?startgroup=a'),
+                       Button.url('🎛️Grup', 'https://t.me/HirasetTR'),
+                      Button.url('🔥Music Botu', 'https://t.me/Myt_Music_Bot')]
                     ),
                     link_preview=False
                    )    
@@ -178,5 +178,5 @@ async def mentionalladmin(event):
     return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
   
 
-print(">> Bot çalıyor merak etme 👮‍♂️ @magandasahip bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 👮‍♂️ @meyitzade47 bilgi alabilirsin <<")
 client.run_until_disconnected()
