@@ -1,4 +1,4 @@
-# Mention All Bot 🇹🇷
+# MytTagBot 🇹🇷
 _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kadar üyelerden bahsedebilir!**_
 ### Otomatik ve Manuel kapanma özelliği 🤗
 
@@ -8,7 +8,7 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 - [Sohbet Grubu](https://t.me/HirasetTR) daha fazlası için. 
 
 ### 🚀 Heroku'ya dağıtın
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/DeezerTagger)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/MytTagBot)
 
 ### 🎯 Krediler ve Diğer
 - [Meyitzade](https://github.com/01-Meyitzade-01) Developer 👨‍💻
