@@ -17,17 +17,17 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
 
-@client.on(events.NewMessage(pattern='^(?i)/tagson'))
-async def cancel(event):
+@client.on(events.NewMessage(pattern='^(?i)/bitir'))
+async def bitir(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
 
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Hi I'm @Hirasettag_Bot I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
+  await event.reply("Hi I'm @MytTagBot I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/Hirasettag_Bot?startgroup=a'),],
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/MytTagBot?startgroup=a'),],
                       [ Button.url('🔥Grup', 'https://t.me/HirasetTR'),],
                       [ Button.url('🔥sahip ', 'https://t.me/meyitzade47'),],
                       [  Button.url('🔥Music botu ', 'https://t.me/Myt_Music_Bot'),],
@@ -40,11 +40,11 @@ async def help(event):
   helptext = """Nasıl Çalışırım:
 /utag <Mesajınız> - kullanıcıları etiketlerim.
 /atag <Mesajınız> - Sadece yöneticileri etiketlerim.
-/cancel - Etiket işlemini iptal ederim.
+/bitir - Etiket işlemini iptal ederim.
 ❕ Yalnızca yöneticileri bu komutları kullanabilir."""
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/Hirasettag_Bot?startgroup=a'),
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/MytTagBot?startgroup=a'),
                        Button.url('🎛️Grup', 'https://t.me/HirasetTR'),
                       Button.url('🔥Music Botu', 'https://t.me/Myt_Music_Bot')]
                     ),
