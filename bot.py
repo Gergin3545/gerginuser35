@@ -27,11 +27,11 @@ async def bitir(event):
 async def start(event):
   await event.reply("Hi I'm @MytTagBot I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/MytTagBot?startgroup=a'),],
-                      [ Button.url('🔥Grup', 'https://t.me/HirasetTR'),],
-                      [ Button.url('🔥sahip ', 'https://t.me/meyitzade47'),],
-                      [  Button.url('🔥Music botu ', 'https://t.me/Myt_Music_Bot'),],
-                     [ Button.url('🔥Yardımcı Sahip', 'https://t.me/Ugurwalkers')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/GerginUserBot?startgroup=a'),],
+                      [ Button.url('🔥Grup', 'https://t.me/sohbetimuhabbetsokagi'),],
+                      [ Button.url('🔥sahip ', 'https://t.me/GERGINBIOM'),],
+                      [  Button.url('🔥Music botu ', 'https://t.me/Jenerikmuzik_bot'),],
+                     [ Button.url('🔥Yardımcı Sahip', 'https://t.me/duyguszadam')]
                     ),
                     link_preview=False
                    )
@@ -45,8 +45,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/MytTagBot?startgroup=a'),
-                       Button.url('🎛️Grup', 'https://t.me/HirasetTR'),
-                      Button.url('🔥Music Botu', 'https://t.me/Myt_Music_Bot')]
+                       Button.url('🎛️Grup', 'https://t.me/sohbetimuhabbetsokagi'),
+                      Button.url('🔥Music Botu', 'https://t.me/Jenerikmuzik_bot')]
                     ),
                     link_preview=False
                    )    
@@ -178,5 +178,5 @@ async def mentionalladmin(event):
     return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
   
 
-print(">> Bot çalıyor merak etme 👮‍♂️ @meyitzade47 bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 👮‍♂️ @GERGINBIOM bilgi alabilirsin <<")
 client.run_until_disconnected()
